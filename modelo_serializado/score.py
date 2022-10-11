@@ -1,3 +1,4 @@
+
 import json
 import os
 from cloudpickle import cloudpickle
@@ -83,4 +84,4 @@ def predict(data, model=load_model()):
     yhat = post_inference(
         model.predict(features)
     )
-    return {'prediction': yhat}
+    return yhat

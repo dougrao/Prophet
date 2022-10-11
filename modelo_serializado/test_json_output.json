@@ -60,12 +60,12 @@
         "description": "Check that field MODEL_DEPLOYMENT.INFERENCE_ENV_PATH is set",
         "error_msg": "In runtime.yaml, the key MODEL_DEPLOYMENT.INFERENCE_ENV_PATH must have a value.",
         "success": true,
-        "value": "oci://service-conda-packs@id19sfcrra6z/service_pack/cpu/General Machine Learning for CPUs on Python 3.7/1.0/generalml_p37_cpu_v1"
+        "value": "oci://dssilva_conda@id3kyspkytmr/conda_environments/cpu/Data Exploration and Manipulation for CPU Python 3.7 with Prophet/1.0/dataexpl_p37_cpu_prophet"
     },
     "runtime_path_exist": {
         "category": "conda_env",
         "description": "Check that the file path in MODEL_DEPLOYMENT.INFERENCE_ENV_PATH is correct.",
         "error_msg": "In runtime.yaml, the key MODEL_DEPLOYMENT.INFERENCE_ENV_PATH does not exist.",
-        "success": false
+        "success": true
     }
 }
